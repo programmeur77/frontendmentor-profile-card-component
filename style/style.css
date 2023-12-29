@@ -27,6 +27,7 @@ body {
   width: 100%;
   grid-column: 1/2;
   grid-row: 1/2;
+  border-radius: 10px 10px 0 0;
 }
 .profile-card-container .profile-card__avatar {
   grid-column: 1/-1;
