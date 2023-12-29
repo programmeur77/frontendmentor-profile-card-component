@@ -1,2 +1,6 @@
 # Project config files and folders
 .prettierrc
+
+# NPM init config files and folders
+package-lock.json
+node_modules/
