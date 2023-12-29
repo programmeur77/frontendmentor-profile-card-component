@@ -45,4 +45,29 @@
       color: $dark-grayish-blue;
     }
   }
+
+  & .user-follow-info {
+    width: 100%;
+    border-top: 1px solid $dark-grayish-blue;
+    padding: 20px;
+    // display: flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    place-items: center;
+    line-height: 1.5rem;
+
+    & .quantity {
+      width: 100%;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    & .legend {
+      font-size: 0.8rem;
+      color: $dark-gray;
+    }
+  }
 }
