@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "sass --watch style/index.scss style/style.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/programmeur77/frontendmentor-profile-card-component/issues"
   },
-  "homepage": "https://github.com/programmeur77/frontendmentor-profile-card-component#readme"
+  "homepage": "https://github.com/programmeur77/frontendmentor-profile-card-component#readme",
+  "devDependencies": {
+    "sass": "^1.69.6"
+  }
 }
